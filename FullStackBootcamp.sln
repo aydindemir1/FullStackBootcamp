@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullStackBootcamp.App", "FullStackBootcamp.App\FullStackBootcamp.App.csproj", "{D630C28F-07A6-412E-9B5C-BDB41413EA17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullStackBootcamp.App", "FullStackBootcamp.App\FullStackBootcamp.App.csproj", "{D630C28F-07A6-412E-9B5C-BDB41413EA17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullStackBootcamp.App2", "FullStackBootcamp.App2\FullStackBootcamp.App2.csproj", "{53D0D6A5-529D-4850-9D5E-B5331CBE7129}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FullStackBootcamp.App2", "FullStackBootcamp.App2\FullStackBootcamp.App2.csproj", "{53D0D6A5-529D-4850-9D5E-B5331CBE7129}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{874737FF-00DC-4683-90B7-A77E2E3A53E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{874737FF-00DC-4683-90B7-A77E2E3A53E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared2", "Shared2\Shared2.csproj", "{B8424BB9-6DB9-467E-85C5-38FD3D68F7B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared2", "Shared2\Shared2.csproj", "{B8424BB9-6DB9-467E-85C5-38FD3D68F7B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPConcept.Example", "OOPConcept.Example\OOPConcept.Example.csproj", "{876636DC-2B20-462C-A07A-A2925F7640AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{B8424BB9-6DB9-467E-85C5-38FD3D68F7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8424BB9-6DB9-467E-85C5-38FD3D68F7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8424BB9-6DB9-467E-85C5-38FD3D68F7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{876636DC-2B20-462C-A07A-A2925F7640AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{876636DC-2B20-462C-A07A-A2925F7640AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{876636DC-2B20-462C-A07A-A2925F7640AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{876636DC-2B20-462C-A07A-A2925F7640AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
