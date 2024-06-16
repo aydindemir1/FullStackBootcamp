@@ -15,7 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPConcept.Example", "OOPCo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsAndArrays.App", "CollectionsAndArrays.App\CollectionsAndArrays.App.csproj", "{572FDC2D-8746-43F2-ADB0-11AE747252E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{E491F1F4-1DFF-476C-B9DA-56149AE25338}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SOLID", "SOLID\SOLID.csproj", "{E491F1F4-1DFF-476C-B9DA-56149AE25338}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateAndEvent.App", "DelegateAndEvent.App\DelegateAndEvent.App.csproj", "{21EC685A-D40B-44BB-BA77-7F1260DDA7FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{E491F1F4-1DFF-476C-B9DA-56149AE25338}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E491F1F4-1DFF-476C-B9DA-56149AE25338}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E491F1F4-1DFF-476C-B9DA-56149AE25338}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21EC685A-D40B-44BB-BA77-7F1260DDA7FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EC685A-D40B-44BB-BA77-7F1260DDA7FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EC685A-D40B-44BB-BA77-7F1260DDA7FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EC685A-D40B-44BB-BA77-7F1260DDA7FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
