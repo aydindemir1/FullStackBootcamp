@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using MVC.Web.Helpers;
 using MVC.WEB.Models;
 using System.Diagnostics;
 
@@ -22,6 +23,21 @@ namespace MVC.WEB.Controllers
         {
             return View();
         }
+
+        public IActionResult RedirectToArticle()
+        {
+            var Title = "Asp.Net Core ile Gelen Yenilikler.C#_ö";
+            var id = 30;
+
+            return RedirectToAction("Index", "Article", new { title = Title.MakeSeoFriendly(), id = id });
+        }
+
+        //[Route("home/product/{productId}")]
+        //[Route("[controller]/[action]/{productId}")]
+        //public IActionResult GetProduct(int productId)
+        //{
+        //    return View();
+        //}
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
